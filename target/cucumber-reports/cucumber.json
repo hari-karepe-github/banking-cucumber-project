@@ -1,0 +1,235 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 25,
+        "name": "Customer validates login information for different suites",
+        "description": "",
+        "id": "city-national-bank-scenarios;customer-validates-login-information-for-different-suites;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7884823908,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3331682859,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he taps on signIn page",
+            "match": {
+              "location": "CityNationalBankPageSteps.he_taps_on_signIn_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1474040342,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "choose to login City National Online",
+            "match": {
+              "location": "CityNationalOnlinePageSteps.choose_to_login_City_National_Online()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 371950655,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validates City National Online login information",
+            "match": {
+              "location": "CityNationalOnlinePageSteps.validates_City_National_Online_login_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158196746,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "moves to Business Suite",
+            "match": {
+              "location": "BusinessSuitePageSteps.moves_to_Business_Suite()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1141420875,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "choose to login into Business Suite",
+            "match": {
+              "location": "BusinessSuitePageSteps.choose_to_login_into_Business_Suite()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 479879079,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "validates Business Suite login information",
+            "match": {
+              "location": "BusinessSuitePageSteps.validates_Business_Suite_login_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103023898,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "moves to Business Essentials",
+            "match": {
+              "location": "BusinessEssentialsPageSteps.moves_to_Business_Essentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273867910,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "choose to login into Business Essentials",
+            "match": {
+              "location": "BusinessEssentialsPageSteps.choose_to_login_into_Business_Essentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15265457,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "validates Business Essentials login information",
+            "match": {
+              "location": "BusinessEssentialsPageSteps.validates_Business_Essentials_login_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1278302041,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "chooses forgot UserID",
+            "match": {
+              "location": "BusinessEssentialsPageSteps.chooses_forgot_UserID()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2415026489,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enter forgot UserID details",
+            "match": {
+              "location": "ForgotUserIDPageSteps.enter_forgot_UserID_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 958281839,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "chooses forgot password",
+            "match": {
+              "location": "BusinessEssentialsPageSteps.chooses_forgot_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2146208991,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enter forgot password details",
+            "match": {
+              "location": "ForgotPasswordPageSteps.enter_forgot_password_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 465011760,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "choose contact us",
+            "match": {
+              "location": "BusinessEssentialsPageSteps.choose_contact_us()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6001720232,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "enter \"Hari\" details on contact us page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hari",
+                  "offset": 7
+                }
+              ],
+              "location": "ContactUsPageSteps.enter_details_on_contact_us_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 270900022,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "browser close",
+            "match": {
+              "location": "HomePageSteps.browser_close()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "City National Bank scenarios",
+    "description": "Description: The purpose of this feature is to test End 2 End integration.",
+    "id": "city-national-bank-scenarios",
+    "keyword": "Feature",
+    "uri": "scenarios.feature"
+  }
+]

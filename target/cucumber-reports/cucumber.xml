@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="28.769603">
+    <testcase classname="City National Bank scenarios" name="Customer validates login information for different suites" time="28.769603">
+        <system-out><![CDATA[Given user is on Home Page..................................................passed
+And he taps on signIn page..................................................passed
+When choose to login City National Online...................................passed
+And validates City National Online login information........................passed
+And moves to Business Suite.................................................passed
+And choose to login into Business Suite.....................................passed
+And validates Business Suite login information..............................passed
+And moves to Business Essentials............................................passed
+And choose to login into Business Essentials................................passed
+And validates Business Essentials login information.........................passed
+Then chooses forgot UserID..................................................passed
+And enter forgot UserID details.............................................passed
+And chooses forgot password.................................................passed
+And enter forgot password details...........................................passed
+And choose contact us.......................................................passed
+And enter "Hari" details on contact us page.................................passed
+And browser close...........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
