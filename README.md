@@ -46,20 +46,28 @@ Using canned tests in your project
 In your TestRunner class add a glue option:
 
 ```
-package stepDefintions;
+package runners;
 
+
+import java.io.File;
+
+import org.junit.AfterClass;
 import org.junit.runner.RunWith;
+
+import com.cucumber.listener.Reporter;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import managers.FileReaderManager;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(
-	plugin = {"html:target/cucumberHtmlReport"},
-	features = "classpath:features",
-	glue = {"info.seleniumcucumber.stepdefinitions"}
-)
+@CucumberOptions(features = "src/test/resources/functionalTests", glue = { "stepDefinitions" }, plugin = { "pretty",
+		"html:target/cucumber-reports", "json:target/cucumber-reports/cucumber.json",
+		"junit:target/cucumber-reports/cucumber.xml",
+		"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html" }, monochrome = true, strict = true)
 
-public class RunCukeTest {
+public class TestRunner {
+	
+
 }
 ```
